@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.top ul{
+    padding: 2px 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style-type: none;
+}
+
+.top ul li{
+    padding-left: 25px;
+}
+
+.profilephoto img{
+    height: 30px;
+    width: 30px;
+}
+
+.profilephoto{
+    padding-right: 15px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.googlelogo img{
+    height: 88px;
+    width: 260px;
+}
+
+.searchbar input{
+    position: relative;
+    border: 1px solid #e1f1ff;
+    border-radius: 25px;
+    width: 540px;
+    height: 42px;
+    margin: 20px 0;
+    padding-left: 30px;
+}
+
+.searchbar span{
+    position: absolute;
+    left: 510px;
+    transform: translateY(175%);
+    font-size: 19px;
+}
+
+.searchbar .lens{
+    position: absolute;
+    left: 1000px;
+    transform: translateY(175%);
+    font-size: 19px;
+} 
+
+.searchbar .mic{
+    position: absolute;
+    left: 970px;
+    transform: translateY(175%);
+    font-size: 19px;
+}
+
+.searchbuttons button{
+    background-color:#f8f9fb;
+    padding: 6px 20px;
+    margin: 10px;
+    border: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.langbar{
+    margin-top: 30px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.langbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.langbar ul li{
+    padding: 0 3px;
+}
+
+.langbar ul li a{
+    text-decoration: none;
+    color: #1A0DAB;
+}
+
+footer{
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footertop{
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.footergap{
+    border: 1px solid  #e1f1ff;
+}
+
+.footerbottom ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.footerbottom ul li{
+    padding: 15px;
+}
+
+.footerbottom .left ul li:nth-of-type(4){
+    margin-right: 840px;
+}
+
+.footerbottom .left ul li:nth-of-type(1){
+    margin-left: 15px;
+}
+
