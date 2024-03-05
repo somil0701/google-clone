@@ -22,6 +22,11 @@
     padding-left: 25px;
 }
 
+.top ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .profilephoto img{
     height: 30px;
     width: 30px;
@@ -47,12 +52,20 @@ main{
 
 .searchbar input{
     position: relative;
+    /* border: 1px solid #f8f9fa; */
     border: 1px solid #e1f1ff;
-    border-radius: 25px;
+    border-radius: 20px;
     width: 540px;
     height: 42px;
     margin: 20px 0;
     padding-left: 30px;
+}
+
+.searchbar input:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: #dadce0;
+    color: #202124;
 }
 
 .searchbar span{
@@ -77,15 +90,22 @@ main{
 }
 
 .searchbuttons button{
+    color: #3c4043;
     background-color:#f8f9fb;
     padding: 6px 20px;
-    margin: 10px;
+    margin: 7px 9px;
     border: none;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    padding-right: 0px;
+}
+
+.searchbuttons button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
 }
 
 .langbar{
@@ -108,6 +128,10 @@ main{
 .langbar ul li a{
     text-decoration: none;
     color: #1A0DAB;
+}
+
+.langbar ul li a:hover{
+    text-decoration: underline;
 }
 
 footer{
@@ -137,6 +161,11 @@ footer{
 
 .footerbottom ul li{
     padding: 15px;
+}
+
+.footerbottom ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .footerbottom .left ul li:nth-of-type(4){
